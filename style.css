@@ -1,11 +1,17 @@
 body {
   background-color: black;
+  margin: 0;
 }
 
 .topbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
   display: flex;
   justify-content: space-between;
-  margin: 15px;
+  margin: 20px;
+  z-index: 3;
 }
 
 .linkHider {
@@ -21,4 +27,45 @@ nav {
   font-size: 130%;
   font-family: monospace;
   align-items: center;
+}
+
+.homeSlide {
+  background-image: url(./images/enq1998sky.jpg);
+  z-index: 0;
+  position: relative;
+  background-position: center;
+  height: 1200px;
+}
+
+.aboutSlide {
+  background-image: url(./images/nicholascapellocharts.jpg);
+  z-index: 0;
+  position: relative;
+  background-size: auto 110%;
+  background-position: center;
+  height: 1200px;
+}
+
+.valueSlide {
+  background-image: url(./images/rivagecrafts.jpg);
+  z-index: 0;
+  position: relative;
+  background-size: auto 110%;
+  background-position: center;
+  height: 1200px;
+}
+
+.discussSlide {
+  background-image: url(./images/shubhamdhagefolds.jpg);
+  z-index: 0;
+  position: relative;
+  background-size: auto 110%;
+  background-position: center;
+  height: 1200px;
+}
+
+footer {
+  text-align: center;
+  font-family: monospace;
+  color: grey;
 }
